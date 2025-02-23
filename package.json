@@ -1,0 +1,16 @@
+{
+  "name": "to-farsi",
+  "version": "1.0.0",
+  "description": "Convert English digits to Persian digits AND MORE !",
+  "main": "index.js",
+  "module": "index.mjs",
+  "scripts": {},
+  "keywords": [
+    "numbers",
+    "persian",
+    "farsi"
+  ],
+  "author": "cwpslxck",
+  "license": "MIT",
+  "types": "index.d.ts"
+}
