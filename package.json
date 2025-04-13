@@ -1,6 +1,6 @@
 {
   "name": "to-farsi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert English digits to Persian digits AND MORE !",
   "main": "index.js",
   "module": "index.mjs",
