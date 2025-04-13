@@ -1,64 +1,24 @@
-## 🐳🍀🐚☀🌧<𝟑
-
-یک پکیج ساده برای تبدیل اعداد لاتین به فارسی 🔄
-
-قابل استفاده برای فرانت اند دولوپرها 🚀
-
-## ویژگی‌ها 🔍
-
-🚀 سبک و سریع
-
-💪 پشتیبانی از TypeScript
-
-📦 بدون وابستگی خارجی
-
-✨ پشتیبانی از اعداد اعشاری
-
-🔄 پشتیبانی از CommonJS و ES Modules
-
-## نصب 📦
-
-برای نصب این پکیج، کافیه دستور زیر رو توی ترمینال پروژه خودتون اجرا کنید:
-
+# TO-FARSI
+Simple npm package to convert your english digits to farsi/arabic digits.
+## Quick Start📦
+Install to-farsi via npm cmds.
 ```bash
 npm i to-farsi
 ```
-
-## استفاده 📚
-
-برای استفاده از این پکیج در پروژه های مختلف خود، کافیه کد زیر رو توی فایل مورد نظر خودتون بنویسید:
-
+import `to-farsi` in your file like this
 ```typescript
+// import to-farsi like this
 import toFarsiNumbers from "to-farsi";
+
+// then use it like this
+console.log(toFarsiNumbers(987654321)); // output: "۹۸۷۶۵۴۳۲۱"
 ```
-
-و بعد از اینکه این کتابخانه ایمپورت شد، میتونید اینجوری ازش استفاده کنید:
-
-```typescript
-console.log(toFarsiNumbers(987654321));
-// خروجی: "۹۸۷۶۵۴۳۲۱"
-```
-
-و یا در محیط فرانت:
-
+or in your front structure use it like this:
 ```html
 <p>{toFarsiNumbers(123456789)}</p>
 ```
 
-## مشارکت 🤝
-
-اگر دوست دارید توی این پروژه مشارکت کنید، لطفاً مراحل زیر رو دنبال کنید:
-
-1. پروژه رو fork کنید
-2. یک branch جدید ایجاد کنید (git checkout -b feature/your-feature)
-3. تغییرات خودتون رو commit کنید (git commit -m 'Add some feature')
-4. به branch اصلی push کنید (git push origin feature/your-feature)
-5. یک Pull Request ایجاد کنید
-
-## لایسنس 🪪
-
+> i don't recommend to pass farsi digital characters to your database or in your logs and just use it when you want to show the number to your users in your projects.
+## <3
+give it a star if it was helpful! ⭐
 MIT © [ cwpslxck ](https://github.com/cwpslxck)
-
-## حمایت 💖
-
-اگر این پروژه براتون مفید بود، لطفاً بهش ستاره ⭐️ بدید!
