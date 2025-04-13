@@ -1,24 +1,24 @@
 # TO-FARSI
 Simple npm package to convert your english digits to farsi/arabic digits.
 ## Quick Start📦
-Install to-farsi via npm cmds.
+install `to-farsi` via npm package
 ```bash
 npm i to-farsi
 ```
-import `to-farsi` in your file like this
+import `to-farsi` in your file
 ```typescript
-// import to-farsi like this
 import toFarsiNumbers from "to-farsi";
-
-// then use it like this
+```
+then use it like this
+```typescript
 console.log(toFarsiNumbers(987654321)); // output: "۹۸۷۶۵۴۳۲۱"
 ```
-or in your front structure use it like this:
+or in your front structure
 ```html
 <p>{toFarsiNumbers(123456789)}</p>
 ```
 
-> i don't recommend to pass farsi digital characters to your database or in your logs and just use it when you want to show the number to your users in your projects.
+> I don't recommend to pass non-English digits to your database or in your logs and just use it when you want to show the number to your users.
 ## <3
 give it a star if it was helpful! ⭐
 MIT © [ cwpslxck ](https://github.com/cwpslxck)
